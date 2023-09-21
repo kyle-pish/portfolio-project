@@ -1,0 +1,300 @@
+:root {
+    --neutral: #232946;
+    --neutral-focus: #121629;
+}
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#index-body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--neutral);
+    padding: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid var(--neutral-foucs)
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 70px 0;
+}
+
+#welcome-section {
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+#welcome-section h1 {
+    color: black;
+    margin-top: 30vh;
+}
+#welcome-section p {
+    color: black;
+    font-size: 25px;
+    margin: 25px 0;
+    font-style: italic;
+}
+
+#experience {
+    background-color: var(--neutral);
+    color: white;
+}
+#experience h1 {
+    border-bottom: 5px solid white;
+    width: fit-content;
+    margin: auto;
+}
+
+#experience .experience{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 40px;
+    place-items: center;
+    max-width: 950px;
+    margin: auto;
+}
+
+#experience .experience-tile {
+    height: 525px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
+}
+
+#experience .experience-tile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#experience .experience-tile p {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#experience .experience-tile span {
+    opacity: 0%;
+    padding: 0 5px;
+}
+
+#experience .experience-tile:hover span {
+    opacity: 100%;
+    color: salmon;
+    transition: opacity 0.25s ease-in;
+}
+
+.resume {
+    text-decoration: none;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0px 15px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+
+.resume:hover {
+    background-color: #222222;
+    color: white;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+}
+
+#contact h1 {
+    margin-top: 30px;
+}
+
+#contact .contact-view {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#contact .social-medias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#contact .social-media {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease-in;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+#contact .social-media:hover {
+    transform: translateY(10px);
+}
+
+footer {
+    border-top: 3px solid white;
+    color: black;
+    font-size: 25px;
+    padding: 30px;
+}
+
+
+#resume-header {
+    text-align: center;
+    background-color: var(--neutral);
+    color: #fff;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#resume-body {
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#summary-section h2 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+    display: flex;
+    padding-left: 0px;
+}
+
+#summary-section  {
+   font-size: 20px;
+   padding-bottom: 0px;
+   padding-left: 30px;
+}
+
+#skills-section h2 {
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#skills-section {
+    margin: 0;
+    padding-bottom: 0px;
+    font-size: 20px;
+    padding-left: 15px;
+
+}
+
+#exp-section h2 {
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#exp-section {
+    margin: 0;
+    padding-bottom: 0px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+}
+
+#exp-section li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+#education-section h2 {
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#education-section {
+    margin: 0;
+    padding-bottom: 0px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#achievements-section h2 {
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#achievements-section {
+    margin: 0;
+    padding-bottom: 0px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+}
+
+#references-section h2 {
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#references-section {
+    margin: 0;
+    padding-bottom: 0px;
+    font-size: 20px;
+    padding-left: 15px;
+    
+}
+
+
