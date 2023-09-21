@@ -72,6 +72,7 @@ section {
     color: black;
     margin-top: 30vh;
 }
+
 #welcome-section p {
     color: black;
     font-size: 25px;
@@ -83,13 +84,14 @@ section {
     background-color: var(--neutral);
     color: white;
 }
+
 #experience h1 {
     border-bottom: 5px solid white;
     width: fit-content;
     margin: auto;
 }
 
-#experience .experience{
+#experience .experience {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 50px;
@@ -195,8 +197,8 @@ section {
 footer {
     border-top: 3px solid white;
     color: black;
-    font-size: 25px;
-    padding: 30px;
+    font-size: 15px;
+    padding: 15px;
 }
 
 
@@ -222,10 +224,10 @@ footer {
     padding-left: 0px;
 }
 
-#summary-section  {
-   font-size: 20px;
-   padding-bottom: 0px;
-   padding-left: 30px;
+#summary-section {
+    font-size: 20px;
+    padding-bottom: 0px;
+    padding-left: 30px;
 }
 
 #skills-section h2 {
@@ -251,7 +253,7 @@ footer {
     padding-bottom: 0px;
     font-size: 20px;
     padding-left: 15px;
-    
+
 }
 
 #exp-section li {
@@ -281,7 +283,7 @@ footer {
     padding-bottom: 0px;
     font-size: 20px;
     padding-left: 15px;
-    
+
 }
 
 #references-section h2 {
@@ -294,7 +296,5 @@ footer {
     padding-bottom: 0px;
     font-size: 20px;
     padding-left: 15px;
-    
+
 }
-
-
