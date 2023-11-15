@@ -298,3 +298,16 @@ footer {
     padding-left: 15px;
 
 }
+
+#projects-section h2 {
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+#projects-section {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+
+}
